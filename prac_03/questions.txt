@@ -1,0 +1,26 @@
+Quick Questions
+1. The "not equal to" operator in Python is "!=".
+2. The "less than or equal to" operator in Python is "<=".
+3. True
+4. True
+5. True
+6. True
+
+Patterns
+1. if, elif, else
+2. if, else
+3. if, if, if...
+4. if, elif, else
+5. if, else
+6. if, else
+7. if, else
+
+Logic Exercise
+The conclusion is that Bill is the youngest and Alice is the oldest.
+Because if Alice is the youngest, then Carl is not the youngest, then
+Alice is the oldest. This result is conflicting and Alice cannot be
+both the youngest and the oldest. So Alice is not the youngest, then
+Bill is the youngest, then Carl cannot be the youngest, then finally
+Alice is the oldest.
+The premise of drawing this conclusion is that the ages of the three
+children are not equal.

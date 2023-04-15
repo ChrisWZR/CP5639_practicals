@@ -1,0 +1,58 @@
+Quick Questions
+1. "Ctrl + /" for Windows & "Command + /" for macOS
+2. while loop (indefinite) & for loop (definite)
+3. A sentinel is a special value that marks loop's end condition.
+4. The name of variable should be all in lowercase, like "nothingwrong"
+5. x += y
+   x -= y
+   x *= y
+   x /= y
+   x %= y
+
+range
+a) Loop outputs
+# 1.
+0 1 2 3 4 5
+# 2.
+33 34 35 36 37 38
+# 3.
+17 16 15 14 13 12
+# 4.
+1 0 1 0 1 0 1 0 1 0
+# 5.
+100>64>36>16>4>
+
+b) Range values
+# 1.
+range(6) or range(0, 6) or range(0, 6, 1)
+# 2.
+range(1, 14, 4) or range(1, 15, 4) or range(1, 16, 4) or range(1, 17, 4)
+# 3.
+range(3, 0, -1)
+# 4.
+range(7, -6, -3) or range(7, -7, -3) or range(7, -8, -3)
+
+Patterns
+1. while loop
+2. while loop
+3. for loop
+4. for loop
+5. for loop
+
+Logic Exercise
+To determine the contents of all three boxes, you only need to remove a
+minimum of 1 marble. Since the problem states that each box label is
+incorrect, when you choose to take marbles from the box labeled "1 black
+and 1 white," it means there are either 2 white marbles or 2 black marbles
+in this box.
+
+If you take out the white marbles, then this box must contain 2 white
+marbles, while the other two boxes will each contain 2 black marbles and
+2 different-colored marbles. Finally, since the two remaining labels are
+"2 black marbles" and "2 white marbles," and the box with 2 black marbles
+cannot be paired with the label of 2 black marbles, the box with 2 black
+marbles must match the label of 2 white marbles. The contents of the
+remaining box can be confirmed in the same way.
+
+Similarly, if you pick a black marble at the beginning, you can follow the
+ame process to determine the contents of all three boxes.

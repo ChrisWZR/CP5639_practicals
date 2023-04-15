@@ -1,0 +1,27 @@
+Quick Questions
+1. Valid and well-named: user_name, total_num
+
+2. Valid but not well-named: YEAR, Day
+
+3. Not be valid: 123name, student age
+
+4. Lower with under - lower case with separate words joined by an underscore
+
+5. Constant is a value that does not change during the program's execution.
+For example, the value of the circumference should be given as a constant in
+the program because it cannot be changed.
+
+6. Constants are to be named as separate words connected by underscores in
+uppercase letters.
+
+Logic Exercise
+I need to take at least 3 socks to be sure of getting a pair of the same color.
+When I pick two socks at random, there are three possibilities:
+
+1. Both socks are black.
+2. Both socks are white.
+3. One black sock and one white sock.
+
+In case 1 and 2, I already have a pair of the same color. In case 3, you need to
+pick one more sock. If the third one is black, I will have a pair of black socks,
+and if it's white, I will have a pair of white socks.

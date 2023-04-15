@@ -1,0 +1,52 @@
+Logic Exercise:
+Smith		project manager
+Brown		consultant
+Jones		programmer
+
+Algorithm with I, P, O:
+get dose, yield
+brew_ratio = dose / yield
+print brew_ratio
+
+Algorithm with Decision:
+get item_price, pocket_money
+if pocket_money < item_price
+    can not afford
+else
+    can afford
+
+Algorithm with Repetition:
+pick things up
+while still things on the floor
+	pick things up
+finish cleaning
+
+Problem Decomposition
+1.
+List 1:
+Nouns: doctor, amount, drug, that, patient, system, dosage, user, number, hours, they, medicine, system, doctor.
+Verbs: needs, calculate, administered, get, receiving, display.
+Algorithm 1:
+get hourly_dosage, hours
+total_drug = hourly_dosage * hours
+print total_drug
+
+2.
+List 2:
+Nouns: Happy Photos, way, charge, customer's booking, system, customer's name, date of the booking, booking id, number of hours, id code.
+Verbs: needs, calculate, use, make, entered, displayed.
+Algorithm 2:
+get name, booking_date
+booking_id = name + booking_date
+get hourly_charge, hours
+total_charge = hourly_charge * hours
+print total_charge, booking_id
+
+3.
+List 3:
+Nouns: road trip planning system, user, distance, travel time, user, average speed, trip.
+Verbs: ask, shown.
+Algorithm 3:
+get travel_distance, travel_time
+average_speed = travel_distance / travel_time
+print average_speed
