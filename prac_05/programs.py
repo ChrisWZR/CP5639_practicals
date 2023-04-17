@@ -44,5 +44,7 @@ display f'It is {time_str} and you are {coming_or_going}. {coming_str}!'
 get coffee_type, coffee_size
 if coffee_type = black
     
+else
+    
 display price
 """
